@@ -1,0 +1,14 @@
+
+How accurately can concrete compressive strength be predicted from mix composition and age?
+
+* Best model: Gradient boosting (tuned)
+    Test R²   = 0.933  (explains ~93% of the variance in strength)
+    Test MAE  = 3.03 MPa
+    Test RMSE = 4.47 MPa   (target range 2.3 to 82.6 MPa, mean ≈ 35.3 MPa)
+* Linear baseline: R² = 0.580, RMSE = 11.19 MPa
+    The nonlinear model cuts RMSE by 60%, which supports UCI's
+    description of the relationship as highly nonlinear.
+* 83% of test predictions are within ±5 MPa of the measured strength.
+* Most important inputs (permutation): age, cement, water
+* On completely unseen mix designs (grouped CV), R² = 0.873, RMSE = 5.73 MPa.
+    This is the more honest estimate for a new mix.
