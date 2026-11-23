@@ -1,1 +1,8 @@
 # Write your project dependencies here, one per line.
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+jupyter
+xlrd>=2.0        # to read the original Concrete_Data.xls
+ucimlrepo        # optional: auto-downloads the dataset if data/ is empty
