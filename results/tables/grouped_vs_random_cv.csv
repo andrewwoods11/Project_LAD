@@ -1,4 +1,0 @@
-model,Random CV R2,Grouped CV R2,Random CV RMSE,Grouped CV RMSE
-Linear regression,0.594,0.574,10.336,10.506
-Random forest,0.91,0.86,4.863,6.017
-Gradient boosting (tuned),0.939,0.882,3.99,5.503
