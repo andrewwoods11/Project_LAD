@@ -1,4 +1,0 @@
-model,Test MAE,Test RMSE,Test R2
-Linear regression (baseline),8.896,11.192,0.58
-Random forest,3.461,5.113,0.912
-Gradient boosting (tuned),3.034,4.475,0.933
