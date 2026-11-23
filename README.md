@@ -1,6 +1,3 @@
-# Project X - Course Y
-Write an overview of this repo and your project here.
-
 # Predicting Concrete Compressive Strength: Data Analytics & Data Mining (Group LAD)
 
 **Research question:** *How accurately can concrete compressive strength be predicted from mixture composition and curing age?*
